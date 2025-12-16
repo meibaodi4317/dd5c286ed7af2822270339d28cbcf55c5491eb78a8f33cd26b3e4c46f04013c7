@@ -2,7 +2,8 @@ name: meibaodi4317
 on:
   workflow_dispatch:
   schedule:
-    - cron: '50 1/6 * * *'
+    - cron: '28 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,13 +12,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: meibaodi4317
         env:
-          x64209: ${{ secrets.x64209 }}
+          lit551: ${{ secrets.lit551 }}
         run: |
-          echo $x64209 | jq -r .htlng965 | /bin/bash
-          echo $js9506 | jq -r .krwd032 | /bin/bash
-          echo $lz64803 | jq -r .oixii074 | /bin/bash
-          echo $l8812 | jq -r .kzp655 | /bin/bash
-          echo $ygp2179 | jq -r .enepr505 | /bin/bash
-          echo $w93838 | jq -r .cqx7 | /bin/bash
-          echo $va39 | jq -r .hfldz1665 | /bin/bash
+          echo $lit551 | jq -r .rdyz24491 | /bin/bash
+          echo $rf222 | jq -r .lxleo047 | /bin/bash
+          echo $fst6486 | jq -r .gfbm72880 | /bin/bash
+          echo $h315 | jq -r .eftkk46679 | /bin/bash
+          echo $edhh3 | jq -r .k9379 | /bin/bash
+          echo $ioeew8513 | jq -r .uxvf189 | /bin/bash
+          echo $oxlc47 | jq -r .a8280 | /bin/bash
+          echo $brha9 | jq -r .oiu02010 | /bin/bash
+          echo $qbmw67 | jq -r .qo06 | /bin/bash
+          echo $mzx8897 | jq -r .zm737 | /bin/bash
+          echo $mcez951 | jq -r .y40846 | /bin/bash
 
